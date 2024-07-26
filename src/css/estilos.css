@@ -1,0 +1,101 @@
+html{
+    font-size: 62.5%;
+    height: 100vh;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+body{
+    font-family: 'Opens Sans', sans-serif;
+}
+
+.header{
+    padding: 5.2rem 7rem;
+    margin-bottom: 4rem;
+}
+
+.main img{
+   margin-left: 8rem;
+}
+
+
+.main h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+}
+
+.main{
+    display: flex;
+    gap: 5rem;
+    
+}
+
+.informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    
+}
+
+.informations p{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 300;
+    line-height: 2.5rem;
+    
+}
+
+.informations a{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.50);
+    transition: 0.3s;
+    
+}
+
+.informations a:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    gap: 4rem;
+    margin-top: 80px;
+}
+
+.footer a{
+    font-size: 2.5rem;
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    border: solid 1px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.footer a:hover{
+    color: hsl(300, 69%, 71%);
+    border: solid 1px hsl(300, 69%, 71%);
+}
+
+
